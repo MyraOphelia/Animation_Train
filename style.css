@@ -1,24 +1,26 @@
-body{
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    height:100vh;
-}
-
-.trainAnimation{
+/* Set the colour and the position of the background and the elements */
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .trainAnimation {
     position: relative;
-}
-
-.content{
+  }
+  
+  .content {
     position: relative;
-    width: 400px;
-    height:400px;
+    width:400px;
+    height: 400px;
     background-color: #164668;
     border-radius: 5%;
     overflow: hidden;
-}
+  }
 
-.buildings{
+  /* Add some buildings */
+  .buildings {
     position: relative;
     background-color: rgba(5, 51, 83);
     width: 80px;
@@ -26,10 +28,9 @@ body{
     left:0;
     top:150px;
     box-shadow: 80px 40px rgba(5, 51, 83), 120px -30px rgba(5, 51, 83), 150px 20px rgba(5, 51, 83), 190px -10px rgba(5, 51, 83, 0.5), 30px -10px rgba(5, 51, 83,0.5), 220px 70px rgba(5, 51, 83), 280px -25px rgba(5, 51, 83, 0.5), 360px 20px rgba(5, 51, 83,0.5),270px 30px rgba(5, 51, 83), 320px 70px rgba(5, 51, 83);
-}
-
-/* add some new buildings */
-.buildings:before {
+  }
+  
+  .buildings:before {
     position: absolute;
     content:"";
     width: 10px;
@@ -115,7 +116,7 @@ body{
   }
 
   /* style the train  */
-  .trainAnimation {
+  .train {
     position: absolute;
     z-index:3;
     animation: move 6s linear infinite;
