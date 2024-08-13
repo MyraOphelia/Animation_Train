@@ -1,5 +1,5 @@
 # TrainAnimation
-Train Animation using html, css 
+Train Animation using HTML, CSS
 <hr>
 
 ## Basic Introduction
